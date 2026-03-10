@@ -23,7 +23,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:5000",
+        target: "https://price-forge-dynamic-pricing-engine.vercel.app/",
         changeOrigin: true,
       },
     },
